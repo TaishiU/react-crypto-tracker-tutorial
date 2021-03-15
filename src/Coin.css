@@ -16,9 +16,14 @@
   .coin {
     display: flex;
     align-items: center;
-    padding-right: 24px;
+    padding-right: 10px;
   
     min-width: 300px;
+  }
+
+  .rank {
+      width: 50px;
+      padding-left: 10px;
   }
   
   .coin h1 {

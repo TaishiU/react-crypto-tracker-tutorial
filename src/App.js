@@ -49,6 +49,7 @@ const App = () => {
                         <Coin
                             //image, name, symbol, price, volume 
                             key={coin.id}
+                            rank={coin.market_cap_rank}
                             name={coin.name}
                             image={coin.image}
                             symbol={coin.symbol}
